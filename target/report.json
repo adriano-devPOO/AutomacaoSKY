@@ -1,0 +1,97 @@
+[
+  {
+    "line": 8,
+    "elements": [
+      {
+        "line": 10,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 24245386800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "que eu esteja realizando uma pesquisa no site da SKY",
+            "match": {
+              "location": "com.sky.steps.Buscar.que_eu_esteja_realizando_uma_pesquisa_no_site_da_sky()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-29T00:02:40.302Z",
+        "line": 14,
+        "name": "Acessar a lista de programcao",
+        "description": "",
+        "id": "o-cliente-acessando-uma-pagina-da-internet;acessar-a-lista-de-programcao",
+        "after": [
+          {
+            "result": {
+              "duration": 116006600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sky.steps.Buscar.fecharBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5255300600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "que seleciona a programacao da hora",
+            "match": {
+              "location": "com.sky.steps.Buscar.que_seleciona_a_programacao_da_hora()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 3925224600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "retorna as programacao",
+            "match": {
+              "location": "com.sky.steps.Buscar.retorna_as_programacao()"
+            },
+            "keyword": "Entao "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@funcionalidade"
+          },
+          {
+            "name": "@cen1"
+          }
+        ]
+      }
+    ],
+    "name": "O cliente acessando uma pagina da internet",
+    "description": "",
+    "id": "o-cliente-acessando-uma-pagina-da-internet",
+    "keyword": "Funcionalidade",
+    "uri": "file:src/test/resources/feature/CenarioBDD.feature",
+    "tags": [
+      {
+        "name": "@funcionalidade",
+        "type": "Tag",
+        "location": {
+          "line": 7,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
